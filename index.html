@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Topster</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <title>Topster Creator</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 <body>
     <h1>Topster Generator</h1>
-    <div id="topster-grid"></div>
+    <button id="login-btn">Log in with Spotify</button>
+    <button id="logout-btn" style="display:none;">Log Out</button>
+    
+    <div id="user-info"></div>
 
     <script src="app.js"></script>
 </body>
